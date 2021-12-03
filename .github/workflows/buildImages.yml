@@ -34,3 +34,4 @@ jobs:
           tags: tcnthomas/kafka:3.0.0, tcnthomas/kafka:latest, quay.io/tcnthomas/kafka:3.0.0, quay.io/tcnthomas/kafka-ui:latest
           context: .
           file: ./Dockerfile
+          platforms: linux/amd64,linux/arm64
